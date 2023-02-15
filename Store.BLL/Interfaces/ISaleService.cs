@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Store.BLL.Interfaces
 {
-    internal interface ISaleService
+    public interface ISaleService
     {
         void MakeSale(SaleDTO saleDto);
         ProductDTO GetProduct(Guid id);

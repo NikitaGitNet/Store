@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Store.BLL.DTO
+﻿namespace Store.WEB.Models
 {
-    public class SaleDTO
+    public class SaleViewModel
     {
         public Guid Id { get; set; }
         public string? EmployeeName { get; set; }
